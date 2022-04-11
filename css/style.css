@@ -1,0 +1,23 @@
+#container{
+  width:100vw;
+  height:100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root{
+  width:428px;
+  height:926px;
+  background-color: antiquewhite;
+}
+
+#root div{
+  border: 1px solid black;
+}
+
+#root>div{
+  width:100%;
+  height:50%;
+}
